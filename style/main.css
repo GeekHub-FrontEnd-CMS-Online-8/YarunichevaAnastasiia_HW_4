@@ -1,0 +1,203 @@
+body {
+	font-family: "Lato", sans-serif;
+	width: 2000px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+header {
+	height: 870px;
+	background: url(../img/bg.png) no-repeat center top / cover;
+}
+
+.top {
+	height: 72px;
+	background-color: #265ea4;
+}
+
+.cookies {
+	margin-top: 32px;
+	margin-left: 740px;
+	color: #fff;
+	font-size: 14px;
+	float: left;
+}
+
+.accept {
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 22px;
+	height: 30px;
+	width: 113px;
+	border: 1px white solid;
+	border-radius: 50px;
+	background-color: #fff;
+	color: #1f4e8a;
+	font-size: 12px;
+	float: right;
+}
+
+.menu {
+	float: right;
+	margin-top: 30px;
+}
+
+.round {
+	margin-top: 40px;
+	padding-bottom: 100px;
+}
+
+.large {
+	position: relative;
+	right: -178px;
+	top: 10px;
+	z-index: 1;
+}
+
+.med {
+	position: relative;
+	z-index: 2;
+}
+
+.small {
+	position: relative;
+	left: -160px;
+	bottom: 8px;
+	z-index: 3;
+}
+
+h1 {
+	margin-top: 50px;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 50px;
+}
+
+.lorem {
+	margin-top: 40px;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 16px;
+	line-height: 2;
+	height: 55px;
+	overflow-y: hidden;
+}
+
+.hire {
+	margin-top: 75px;
+	border: 1px white solid;
+	border-radius: 50px;
+	background-color: #fff;
+	width: 204px;
+	height: 55px;
+	text-transform: uppercase;
+	color: #63a7ff;
+	font-size: 16px;
+}
+
+.arrow {
+	margin-top: 95px;
+}
+
+
+h2 {
+	font-size: 50px;
+	color: #5ba0fe;
+	margin-top: 95px;
+}
+
+.message {
+	font-size: 16px;
+  	color: #5a5a5a;
+  	line-height: 2;
+  	margin-top: 65px;
+  	margin-bottom: 120px;
+}
+
+.blue {
+	background: #f1f8ff;
+	height: 1145px;
+	padding-top: 50px;
+}
+
+.block {
+	float: left;
+	width: 360px;
+	margin-top: 100px;
+	margin-left: 20px;
+}
+
+p {
+	height: 90px; 
+	overflow-y: hidden;
+	line-height: 2;
+}
+
+h3 {
+	color: #3677fd;
+	margin-bottom: 30px;
+}
+
+.block img {
+	margin-bottom: 60px;
+}
+
+.comt {
+	height: 950px;
+}
+
+.pict {
+	width: 360px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 50px;
+}
+
+.size {
+	width: 200px;
+}
+
+.logos img {
+	margin-left: 90px;
+	opacity: 0.3;
+}
+
+.blue2 {
+	background:  #f1f8ff;
+	height: 365px;
+	padding-top: 50px;
+}
+
+footer {
+	height: 200px;
+	background: url(../img/bg.png) no-repeat center top/ cover;
+	padding-top: 100px;
+}
+
+.end {
+	font-size: 40px;
+	color: #fff;
+	float: left;
+}
+
+span {
+	font-weight: bold;
+}
+
+.hire2 {
+	border: 1px white solid;
+	border-radius: 50px;
+	background-color: #fff;
+	width: 204px;
+	height: 55px;
+	text-transform: uppercase;
+	color: #63a7ff;
+	font-size: 16px;
+}
+
