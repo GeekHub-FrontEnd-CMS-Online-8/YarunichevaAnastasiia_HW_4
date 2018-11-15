@@ -48,9 +48,53 @@ header {
 	margin-top: 30px;
 }
 
+
+.modal {
+	position: absolute;
+	width: 1170px;
+	height: 705px;
+	background: #fff;
+	border-radius: 5px;
+	z-index: 9;
+	display: none;
+}
+
+nav a {
+	display: block;
+	text-decoration: none;
+	color: #d2d2d2;
+	line-height: 2;
+	font-size: 50px;
+}
+
+.me {
+	margin-left: 100px;
+}
+
+hr {
+	width: 400px;
+	margin-top: 75px;
+}
+
+.modal img {
+	margin-top: 75px;
+}
+
+.close {
+	float: right;
+	font-size: 40px;
+	text-decoration: none;
+	color: #5ba0fe;
+}
+
+.modal:target {
+	display: block;
+}
+
 .round {
 	margin-top: 40px;
 	padding-bottom: 100px;
+	z-index: 5;
 }
 
 .large {
@@ -90,19 +134,85 @@ h1 {
 }
 
 .hire {
-	margin-top: 75px;
+	width: 204px;
+	height: 55px;
 	border: 1px white solid;
 	border-radius: 50px;
 	background-color: #fff;
-	width: 204px;
-	height: 55px;
+	text-decoration: none;
 	text-transform: uppercase;
 	color: #63a7ff;
 	font-size: 16px;
+	margin-top: 75px;
+	position: absolute;
+}
+
+
+.button {
+	position: absolute;
+	width: 810px;
+	height: 625px;
+	background: #fff;
+	border-radius: 5px;
+	z-index: 10;
+	display: none;
+	transform: translate(250px, -550px);
+}
+
+.button h2 {
+	margin-top: 45px;
+}
+
+li {
+	list-style-type: none;
+	margin-right: 50px;
+}
+
+input {
+	width: 520px;
+	border: 1px #b7c0c9 solid;
+	border-radius: 10px;
+	margin-top: 15px;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+	font-size: 16px;
+	color: #d2d2d2;
+}
+
+input[type="email"]::-webkit-input-placeholder {
+	font-size: 16px;
+	color: #d2d2d2;
+}
+
+#name, #email {
+	height: 45px;
+}
+
+#message {
+	height: 180px;
+}
+
+.send {
+	width: 203px;
+	height: 55px;
+	background: #5ba0fe;
+	color: #fff;
+	border: 1px #5ba0fe solid;
+	border-radius: 50px;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+
+.button:target {
+	display: block;
 }
 
 .arrow {
 	margin-top: 95px;
+	position: absolute;
 }
 
 
@@ -200,4 +310,3 @@ span {
 	color: #63a7ff;
 	font-size: 16px;
 }
-
